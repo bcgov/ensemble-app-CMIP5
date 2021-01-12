@@ -369,7 +369,7 @@ server <- function(input, output) {
     DT::datatable(modelMetadata, 
                   options = list(pageLength = dim(modelMetadata)[1]), 
                   rownames= FALSE, 
-                  caption = 'Model Metadata. Global model statistics are quoted from Forster et al. (2013, Journal of Geophysical Research): TCR is transient climate response to a 1%/yr increase in CO2, ECS is equilibrium climate sensitivity to an instant quadrupling of CO2, and deltaT is global mean surface temperature change (K) since preindustrial for RCP4.5 to the 2090s.'
+                  caption = 'Model Metadata. Global model statistics are quoted from Forster et al. (2013, Journal of Geophysical Research): TCR is transient climate response (temperature change in response to a 1%/yr increase in CO2 at time, at point of doubling CO2), ECS is equilibrium climate sensitivity (temperature change in response to an instant doubling of CO2), and deltaT is global mean surface temperature change since preindustrial for RCP4.5 in the 2090s. All values are in degrees Celsius.'
     )
   })
   
